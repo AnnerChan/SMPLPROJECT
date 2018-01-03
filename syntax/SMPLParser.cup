@@ -103,7 +103,7 @@ non terminal Binding binding;
 non terminal Exp builtIn;
 
 non terminal Exp list;
-non terminal Statement call;
+non terminal Exp call;
 non terminal Exp lazy;
 non terminal Exp vector;
 non terminal Exp sie;

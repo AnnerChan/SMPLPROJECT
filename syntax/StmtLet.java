@@ -3,20 +3,19 @@ package smpl.syntax;
 import java.util.*;
 import smpl.semantics.Visitor;
 import smpl.sys.SmplException;
-import smpl.sys.StmtList;
 
 public class StmtLet extends Exp {
 
 	ArrayList<Binding> bindings;
 	Exp body;
-	StmtList;
+	StmtSequence body;
 
 	public StmtLet(ArrayList<Binding> bindings, Exp body){
 		this.bindings = bindings;
 		this.body = body;
 	}
 	
-	public StmtLet(ArrayList<Binding> bindings, StmtList body){
+	public StmtLet(ArrayList<Binding> bindings, StmtSequencce body){
 		this.bindings = bindings;
 		this.body = body;
 	}
