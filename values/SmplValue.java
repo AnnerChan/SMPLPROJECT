@@ -4,7 +4,7 @@ import java.util.*;
 import smpl.sys.SmplException;
 import smpl.sys.SmplTypeException;
 import smpl.syntax.*;
-import smpl.sementics.Environment;
+import smpl.semantics.Environment;
 
 public class SmplValue {
     public static final SmplValue NO_VALUE = null;
